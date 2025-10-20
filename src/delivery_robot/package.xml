@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>delivery_robot</name>
+  <version>0.0.0</version>
+  <description>Package Delivery Robot in ROS2</description>
+  <maintainer email="you@example.com">You</maintainer>
+  <license>Apache-2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>nav2_simple_commander</depend>
+  <depend>geometry_msgs</depend>
+</package>

@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing crop_monitor.egg-info/PKG-INFO
+writing dependency_links to crop_monitor.egg-info/dependency_links.txt
+writing entry points to crop_monitor.egg-info/entry_points.txt
+writing requirements to crop_monitor.egg-info/requires.txt
+writing top-level names to crop_monitor.egg-info/top_level.txt
+reading manifest file 'crop_monitor.egg-info/SOURCES.txt'
+writing manifest file 'crop_monitor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/karthik/ros2_ws/install/crop_monitor/lib/python3.12/site-packages/crop-monitor.egg-link (link to .)
+Installing image_publisher script to /home/karthik/ros2_ws/install/crop_monitor/lib/crop_monitor
+Installing monitor_node script to /home/karthik/ros2_ws/install/crop_monitor/lib/crop_monitor
+Installing patrol_node script to /home/karthik/ros2_ws/install/crop_monitor/lib/crop_monitor
+
+Installed /home/karthik/ros2_ws/build/crop_monitor
+running symlink_data

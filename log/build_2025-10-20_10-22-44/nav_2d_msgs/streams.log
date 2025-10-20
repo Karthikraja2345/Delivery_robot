@@ -1,0 +1,31 @@
+[0.117s] Invoking command in '/home/karthik/ros2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/karthik/ros2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karthik/ros2_ws/install/nav_2d_msgs
+[1.123s] -- The C compiler identification is GNU 13.3.0
+[3.219s] -- The CXX compiler identification is GNU 13.3.0
+[5.264s] -- Detecting C compiler ABI info
+[6.117s] -- Detecting C compiler ABI info - done
+[6.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.132s] -- Detecting C compile features
+[6.133s] -- Detecting C compile features - done
+[6.431s] -- Detecting CXX compiler ABI info
+[7.319s] -- Detecting CXX compiler ABI info - done
+[7.352s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.352s] -- Detecting CXX compile features
+[7.353s] -- Detecting CXX compile features - done
+[7.367s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[7.780s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.989s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.597s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[8.629s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[8.676s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.722s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.832s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[8.897s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[10.444s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[12.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.269s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[13.622s] -- Found PythonExtra: /usr/bin/python3  
+[14.666s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[14.846s] -- Configuring done (14.7s)
+[14.977s] -- Generating done (0.1s)
+[15.007s] -- Build files have been written to: /home/karthik/ros2_ws/build/nav_2d_msgs

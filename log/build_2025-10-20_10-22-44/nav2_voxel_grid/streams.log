@@ -1,0 +1,45 @@
+[0.354s] Invoking command in '/home/karthik/ros2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/karthik/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/karthik/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/karthik/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/karthik/ros2_ws/src/navigation2/nav2_voxel_grid -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karthik/ros2_ws/install/nav2_voxel_grid
+[4.440s] -- The C compiler identification is GNU 13.3.0
+[4.440s] -- The CXX compiler identification is GNU 13.3.0
+[5.338s] -- Detecting C compiler ABI info
+[6.436s] -- Detecting C compiler ABI info - done
+[6.449s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.449s] -- Detecting C compile features
+[6.450s] -- Detecting C compile features - done
+[6.719s] -- Detecting CXX compiler ABI info
+[7.617s] -- Detecting CXX compiler ABI info - done
+[7.633s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.633s] -- Detecting CXX compile features
+[7.634s] -- Detecting CXX compile features - done
+[7.642s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[8.023s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[8.247s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.408s] -- Found nav2_common: 1.1.19 (/home/karthik/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[8.420s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[9.087s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[9.127s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[9.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.399s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[9.404s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[9.599s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[10.362s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[10.779s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.463s] -- Setting build type to Release as none was specified.
+[11.483s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[11.801s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.815s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.375s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.377s] -- Found Threads: TRUE  
+[12.405s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.407s] -- Configured cppcheck include dirs: /home/karthik/ros2_ws/src/navigation2/nav2_voxel_grid/include
+[12.407s] -- Configured cppcheck exclude dirs and/or files: 
+[12.410s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.410s] -- Configured cpplint exclude dirs and/or files: 
+[12.417s] -- Added test 'lint_cmake' to check CMake code style
+[12.423s] -- Added test 'uncrustify' to check C / C++ code style
+[12.423s] -- Configured uncrustify additional arguments: 
+[12.426s] -- Added test 'xmllint' to check XML markup files
+[12.435s] -- Configuring done (12.1s)
+[12.469s] -- Generating done (0.0s)
+[12.483s] -- Build files have been written to: /home/karthik/ros2_ws/build/nav2_voxel_grid

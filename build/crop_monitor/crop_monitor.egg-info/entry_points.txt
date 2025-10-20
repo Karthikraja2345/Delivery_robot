@@ -1,0 +1,4 @@
+[console_scripts]
+image_publisher = crop_monitor.image_publisher:main
+monitor_node = crop_monitor.monitor_node:main
+patrol_node = crop_monitor.patrol_node:main

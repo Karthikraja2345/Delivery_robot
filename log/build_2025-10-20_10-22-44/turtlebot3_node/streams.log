@@ -1,0 +1,55 @@
+[0.115s] Invoking command in '/home/karthik/ros2_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/karthik/ros2_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karthik/ros2_ws/install/turtlebot3_node
+[1.114s] -- The C compiler identification is GNU 13.3.0
+[3.142s] -- The CXX compiler identification is GNU 13.3.0
+[4.879s] -- Detecting C compiler ABI info
+[5.806s] -- Detecting C compiler ABI info - done
+[5.822s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.823s] -- Detecting C compile features
+[5.825s] -- Detecting C compile features - done
+[6.141s] -- Detecting CXX compiler ABI info
+[6.976s] -- Detecting CXX compiler ABI info - done
+[6.991s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.991s] -- Detecting CXX compile features
+[6.992s] -- Detecting CXX compile features - done
+[6.997s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[7.360s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.569s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.703s] -- Found dynamixel_sdk: 3.8.4 (/opt/ros/jazzy/share/dynamixel_sdk/cmake)
+[7.714s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[8.357s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[8.418s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[8.482s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.735s] -- Found message_filters: 4.11.7 (/opt/ros/jazzy/share/message_filters/cmake)
+[9.022s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[9.036s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[9.371s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[10.053s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[10.447s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.941s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[10.994s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[11.061s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[11.121s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[11.137s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[11.520s] -- Found turtlebot3_msgs: 2.4.0 (/opt/ros/jazzy/share/turtlebot3_msgs/cmake)
+[11.895s] -- Configuring done (11.7s)
+[11.967s] -- Generating done (0.0s)
+[11.981s] -- Build files have been written to: /home/karthik/ros2_ws/build/turtlebot3_node
+[12.013s] Invoked command in '/home/karthik/ros2_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/karthik/ros2_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karthik/ros2_ws/install/turtlebot3_node
+[12.016s] Invoking command in '/home/karthik/ros2_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/karthik/ros2_ws/build/turtlebot3_node -- -j12 -l12
+[12.142s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[20.453s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[28.393s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[36.129s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[45.717s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[53.097s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[76.737s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[76.737s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[76.739s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[76.740s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[76.741s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[103.026s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[103.804s] [ 85%] Built target turtlebot3_node_lib
+[103.844s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[111.032s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[113.568s] [100%] Built target turtlebot3_ros
