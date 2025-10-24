@@ -33,8 +33,8 @@ This project shows how to combine navigation, waypoints, and custom logic to sim
 
 ### 1️⃣ Clone this repo
 ```bash
-git clone https://github.com/YourUsername/YourRepoName.git
-cd YourRepoName
+git clone https://github.com/Karthikraja2345/Delivery_robot.git
+cd Delivery_robot
 ```
 
 ### 2️⃣ Build the workspace
