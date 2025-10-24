@@ -60,7 +60,7 @@ source install/setup.bash
 
 ### 6️⃣ Start delivery node 🚚
 ```bash
-ros2 run <your_package_name> <your_delivery_node>
+ros2 run Delivery_robot robot
 ```
 
 ---
@@ -78,14 +78,6 @@ ros2 run <your_package_name> <your_delivery_node>
 - Edit Python node to set your own waypoints or logic  
 - Add new waypoints, goals, or “events” via simple code tweaks  
 - Connect to RViz anytime to visualize waypoints and robot state  
-
----
-
-## 📸 Example Screenshot
-_Add a screenshot here!_
-```markdown
-![Gazebo + RViz]()
-```
 
 ---
 
