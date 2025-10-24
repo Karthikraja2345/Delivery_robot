@@ -84,8 +84,3 @@ ros2 run Delivery_robot robot
 ## 📚 Credits
 - TurtleBot3 Manual  
 - Gazebo simulation with TurtleBot3  
-
----
-
-## ⚖️ License
-MIT License
